@@ -1,0 +1,95 @@
+@charset "utf-8";
+#container {
+	color: #666666;
+}
+
+#container .ticket h2 {
+	font-size: 25px;
+	font-weight: normal;
+	border-bottom: 1px dashed #CCCCCC;
+	padding-bottom: 15px;
+}
+
+#container .ticket .book {
+	padding: 15px 0 10px 0;
+}
+
+#container .ticket .newticket {
+	padding: 15px 0 10px 0;
+}
+
+.booktype {
+	display: inline-block;
+	padding: 2px 6px;
+	color: #666666;
+	margin-left: 8px;
+}
+
+#container .ticket .book .bookmain {
+	margin-top: 10px;
+	position: relative;
+}
+
+#container .ticket .book .bookmain input {
+	width: 180px;
+	margin: 0 10px 10px 10px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+#container .ticket .book .bookmain #bookbtn {
+	position: absolute;
+	right: 270px;
+	top: -3px;
+	width: 68px;
+	height: 68px;
+	background-color: #FF6600;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.typeactive,
+.booktype:hover {
+	background-color: #458B00;
+	color: #FFFFFF;
+	border-radius: 3px;
+}
+
+#container .ticket .newticket .ntmain td,
+#container .ticket .newticket .ntmain th {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#container .ticket .newticket .ntmain tr:last-child td {
+	border-bottom: none;
+}
+
+#container .ticket .newticket .ntmain td:nth-child(3) {
+	color: #FF6600;
+}
+
+#container .ticket .newticket .ntmain table {
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	text-align: center;
+	width: 800px;
+	margin-top: 20px;
+}
+
+#container .ticket .newticket .ntmain table a {
+	color: #666666;
+}
+#container .ticket .newticket .ntmain table a:hover {
+	color: #FF6600;
+}
+#container .ticket .newticket .ntmain .tablebtn {
+	background-color: #FF6600;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 14px;
+}
